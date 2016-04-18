@@ -10,7 +10,7 @@ html, body { height:100%; }
 }
 #kiwi * { margin:0px; padding:0px; }
 #kiwi p { margin:0.5em 0; }
-#kiwi a { color:#36C; text-decoration:none; cursor:pointer; }
+#kiwi a { color:#9E75E3; text-decoration:none; cursor:pointer; }
 #kiwi a img { border:none; }
 #kiwi .format_span a { color: inherit; background-color: inherit; text-decoration: inherit; font-style: inherit; font-weight: inherit;}
 
@@ -37,7 +37,7 @@ html, body { height:100%; }
 /**
  * Main layout blocks
  */
-#kiwi .toolbar { position:absolute; top:0px; width:100%; display:none; z-index:1; }
+#kiwi .toolbar { position:absolute; top:0px; width:100%; display:none; z-index:1;background: #111 !important; box-shadow: none !important; }
 #kiwi .panels { position:absolute; left:0px; right:200px; bottom:100px; top:100px; }
 #kiwi .right_bar { position:absolute; right:0px; width:200px; bottom:100px; top:100px; overflow:visible; }
 #kiwi .right-bar-content { position:relative; height:100%; z-index:0; }
