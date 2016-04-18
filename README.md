@@ -1,3 +1,6 @@
+### This is just a reskin of KiwiIRC
+I sincerely doubt anyone outside of BronyTV will find this useful, but it's a reskin of Kiwi to fit our site's needs.
+We likely will not remove any of the links to the official Kiwi site as this is just intended to be a reskin. The site this client resides on will most likely link back to the original repository of KiwiIRC.
 ### Kiwi IRC - A hand-crafted IRC client
 Kiwi IRC is a fully featured IRC client that can be extended to suit almost any needs.
 Using the web application is extremly simple even without any IRC knowledge as all the common needs are built directly into the UI.
