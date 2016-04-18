@@ -1,3 +1,4 @@
+###[BronyTV](https://bronytv.net): We stream pony pony and more pony!
 ### This is just a reskin of KiwiIRC
 I sincerely doubt anyone outside of BronyTV will find this useful, but it's a reskin of Kiwi to fit our site's needs.
 We likely will not remove any of the links to the official Kiwi site as this is just intended to be a reskin. The site this client resides on will most likely link back to the original repository of KiwiIRC.
