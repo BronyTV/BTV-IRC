@@ -9,6 +9,7 @@
     font-family:Arial, Helvetica, sans-serif;
     font-size:14px; line-height:1.4em;
     background: #181818;
+    color: white;
 }
 #kiwi button, #kiwi input { padding: 3px 7px; }
 #kiwi input, #kiwi textarea {
@@ -101,7 +102,7 @@
 #kiwi .messages.active { }
 #kiwi .messages a { text-decoration:none; }
 
-#kiwi .messages .msg { border-bottom: 1px solid #DEDEDE; padding: 5px; font-family:arial; font-size:0.9em; }
+#kiwi .messages .msg { border-bottom: 1px solid #FFF; padding: 5px; font-family:arial; font-size:0.9em; }
 #kiwi .messages .msg .time { display:none; }
 #kiwi .messages .msg .nick { display:block; font-family:Arial; text-tranform:capitalize; color: #9E75E3 !important; }
 #kiwi .messages .msg .text { display:block; white-space:pre-wrap; word-wrap:break-word; font-family:arial; color: #d9d9d9;}
