@@ -1,6 +1,6 @@
 #kiwi {
-    background: #111;
-    color: #fff;
+    background: #111 !important;
+    color: #fff !important;
 }
 #kiwi,
 #kiwi input,
