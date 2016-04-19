@@ -1,6 +1,6 @@
 #kiwi {
-    background: #111 !important;
-    color: #fff !important;
+    background: #181818 !important;
+    color: #d9d9d9 !important;
 }
 #kiwi,
 #kiwi input,
@@ -14,6 +14,7 @@
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5),0 1px 0px rgba(255, 255, 255, 0.3);
     border: none;
     border-radius: 3px;
+    background: #181818 !important;
 }
 #kiwi button {
     border-radius: 2px;
@@ -56,7 +57,7 @@
 #kiwi .toolbar .panellist .alert_activity { font-weight:normal; }
 #kiwi .toolbar .panellist .alert_action { font-weight:normal; }
 
-#kiwi .toolbar .panellist .active { padding-right:23px; border-top:2px solid #df6b26; border-bottom:none; }
+#kiwi .toolbar .panellist .active { padding-right:23px; border-top:2px solid #9E75E3; border-bottom:none; }
 #kiwi .toolbar .panellist li .part:before { font-family: FontAwesome; content:"\f00d"; }
 
 #kiwi .toolbar .panellist li.server span { padding-left:5px; }
@@ -95,13 +96,13 @@
     color: #88C56A;
 }
 
-#kiwi .messages { color: #333333; }
+#kiwi .messages { color: #d9d9d9; }
 #kiwi .messages.active { }
 #kiwi .messages a { text-decoration:none; }
 
 #kiwi .messages .msg { border-bottom: 1px solid #DEDEDE; padding: 5px; font-family:arial; font-size:0.9em; }
 #kiwi .messages .msg .time { display:none; }
-#kiwi .messages .msg .nick { display:block; font-family:Arial; text-tranform:capitalize; }
+#kiwi .messages .msg .nick { display:block; font-family:Arial; text-tranform:capitalize; color: #9E75E3 !important; }
 #kiwi .messages .msg .text { display:block; white-space:pre-wrap; word-wrap:break-word; font-family:arial; }
 
 #kiwi .messages .msg.action .nick { }
@@ -243,14 +244,15 @@
 }
 
 #kiwi .controlbox .input {
-    background:#fff; margin:3px;
+    background:#181818; margin:4px;
     height:1.7em;
+    color: white;
 }
 #kiwi .controlbox .input .nick { display:none; }
-#kiwi .controlbox .input .nick a { text-decoration:none; color:black; }
+#kiwi .controlbox .input .nick a { text-decoration:none; color:white; }
 #kiwi .controlbox .input .input_wrap {
     position:absolute;
-    right:3px; left:3px;
+    right:0px; left:0px;
     height:1.7em;
 }
 #kiwi .controlbox .input .inp {
