@@ -239,23 +239,25 @@ html, body { height:100%; }
 }
 #kiwi.narrow .autocomplete-header {
     display: none;
-    background: #181818;
+    background: #181818 !important;
 }
 #kiwi .autocomplete-header-help {
     float: right;
+    background: #181818 !important;
 }
 #kiwi .autocomplete-list {
     overflow-y: auto;
-    background: #181818;
+    background: #181818 !important;
 }
 #kiwi.narrow .autocomplete {
     left: 0;
     right: 0;
-    background: #181818;
+    background: #181818 !important;
 }
 #kiwi .autocomplete-item {
     list-style: none;
     overflow: hidden;
+    background: #181818 !important;
     color: white;
 }
 #kiwi .autocomplete-item .matches {
@@ -272,6 +274,7 @@ html, body { height:100%; }
 }
 #kiwi .autocomplete-item .description {
     float: right;
+    background: #181818 !important;
 }
 
 
@@ -292,7 +295,7 @@ html, body { height:100%; }
 /* Nick change dialog showed when clicking the nick label */
 #kiwi .controlbox .nickchange {
     position: absolute;
-    background: #FFF;
+    background: #111;
 }
 #kiwi .controlbox .nickchange input { }
 #kiwi .controlbox .nickchange button { }
@@ -376,6 +379,7 @@ html, body { height:100%; }
 /* Some of these styles will move to global styling later */
 #kiwi .settings_container {
     padding: 25px;
+    background: black !important;
 }
 
 #kiwi .settings_container .settings-category {
