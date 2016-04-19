@@ -230,26 +230,33 @@ html, body { height:100%; }
     bottom: 100%;
     overflow-y: auto;
     display: none;
+    color: white;
+    background: #181818;
 }
 #kiwi .autocomplete-header {
     overflow: hidden;
+    background: #181818;
 }
 #kiwi.narrow .autocomplete-header {
     display: none;
+    background: #181818;
 }
 #kiwi .autocomplete-header-help {
     float: right;
 }
 #kiwi .autocomplete-list {
     overflow-y: auto;
+    background: #181818;
 }
 #kiwi.narrow .autocomplete {
     left: 0;
     right: 0;
+    background: #181818;
 }
 #kiwi .autocomplete-item {
     list-style: none;
     overflow: hidden;
+    color: white;
 }
 #kiwi .autocomplete-item .matches {
     margin-left: 2em;
