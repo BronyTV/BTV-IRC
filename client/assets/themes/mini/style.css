@@ -1,6 +1,6 @@
 #kiwi {
-    background: #FFF;
-    color: #555555;
+    background: #111;
+    color: #fff;
 }
 #kiwi,
 #kiwi input,
@@ -25,7 +25,7 @@
 #kiwi button:disabled { color: #464646; background:#9cc164; }
 
 #kiwi .toolbar {
-    background-color:#1B1B1B; font-size:0.9em;
+    background-color:#111 !important; box-shadow:none !important; font-size:0.9em;
 }
 #kiwi .controlbox { background-color:#1B1B1B; }
 #kiwi .memberlists_resize_handle {
