@@ -92,12 +92,15 @@ html, body { height:100%; }
     left: 0;
     width: 100%;
     z-index: 1;
+    background: #181818 !important;
 }
 #kiwi .channel_tools i {
     width: 32%;
     display: inline-block;
     text-align: center;
     cursor: pointer;
+    background: #181818;
+    color: #FFF;
 }
 
 #kiwi .panel_container { overflow-y:auto; height:100%; }
