@@ -404,7 +404,7 @@ html, body { height:100%; }
     display: block;
     line-height: 2.5em;
     padding: 0 1em;
-    width: 100%;
+    width: 100px;
 }
 
 #kiwi .settings_container .thumbnails:before {
