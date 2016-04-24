@@ -9,15 +9,17 @@
 #kiwi textarea {
     font-family:Arial, Helvetica, sans-serif;
     font-size:14px; line-height:1.4em;
+    background: #181818;
+    color: white;
 }
 #kiwi button {
     border-radius: 2px;
     border: none;
-    background: #8ab746;
+    background: #9E75E3;
     cursor: pointer;
     color: #1b1b1b;
 }
-#kiwi button:disabled { color: #464646; background:#9cc164; }
+#kiwi button:disabled { color: white; background:#4f23a2; }
 #kiwi button, #kiwi input { padding: 3px 7px; }
 #kiwi input, #kiwi textarea {
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5),0 1px 0px rgba(255, 255, 255, 0.3);
@@ -30,7 +32,7 @@
     z-index: 1;
 }
 #kiwi .controlbox {
-    background-color:#eee;
+    background-color:black;
     padding-top: 5px;
     padding-bottom: 5px;
     border-top: 1px solid #ccc;
@@ -67,7 +69,7 @@
 #kiwi .toolbar .panellist li .part:before { font-family: FontAwesome; content:"\f00d"; }
 
 #kiwi .toolbar .panellist li.server span { padding-left: 5px; font-weight: bold; font-family: Arial,Helvetica,sans-serif; }
-#kiwi.connected .toolbar .panellist li.server:before { content: "\f0ec"; color:#3F9532; }
+#kiwi.connected .toolbar .panellist li.server:before { content: "\f0ec"; color:#CFB6FF; }
 #kiwi .toolbar .panellist li.server:before { content: "\f06a"; color:#900; font-size:1.5em; line-height:1em; vertical-align:middle; }
 
 /* Tab texts are within a span */
@@ -86,7 +88,7 @@
     font-family: Arial,Helvetica,sans-serif;
 }
 #kiwi .toolbar .panellist li.alert_highlight .activity {
-    color: #fff; background: #a60400;
+    color: #fff; background: #4E18B1;
 }
 
 #kiwi .status_message {
@@ -109,30 +111,30 @@
 }
 #kiwi .channel_tools i:hover {
     transition: color 0.3s;
-    color: #88C56A;
+    color: #9E75E3;
 }
 
-#kiwi .messages { color: #333333; background-color: #fff; padding-bottom: 10px;}
+#kiwi .messages { color: #d9d9d9; background-color: black; padding-bottom: 10px;}
 #kiwi .messages.active { }
 #kiwi .messages a { text-decoration:none; }
 
-#kiwi .messages .msg { border-bottom: 1px solid #f7f5f5; padding: 0px; font-family:arial; /*font-size:0.9em;*/; min-height: 20px; }
+#kiwi .messages .msg { border-bottom: 1px solid #9E75E3; padding: 0px; font-family:arial; /*font-size:0.9em;*/; min-height: 20px; }
 #kiwi .messages .msg .time { float:right; margin-top: 3px; color:#999; padding:1px 5px 0 0; display:none; font-size: 11px; width: 6em; text-align:right; }
-#kiwi .messages .msg .nick { width: 8em; float:left; font-size:12px; font-family:Arial; text-align:right; padding: 4px; overflow:hidden; white-space: nowrap; line-height: 20px; }
+#kiwi .messages .msg .nick { width: 8em; float:left; font-size:12px; font-family:Arial; text-align:right; padding: 4px; overflow:hidden; white-space: nowrap; line-height: 20px; color: #9E75E3 !important;}
 #kiwi .messages .msg .text { min-height: 20px; display:block; margin-left:8em; border-left: 0px solid #DEDEDE; white-space:pre-wrap; word-wrap:break-word; font-family:arial; padding:4px; padding-left: 10px; border-left: 1px solid #dedede; line-height: 20px; }
 
 #kiwi .messages .msg.action .nick { }
-#kiwi .messages .msg.action .text { color:#009900; font-style:italic; }
-#kiwi .messages .msg.action.join { color:#009900; }
-#kiwi .messages .msg.action.part .text { color:#900; }
-#kiwi .messages .msg.action.quit .text { color:#900; }
-#kiwi .messages .msg.action.kick .text { color:#900; }
+#kiwi .messages .msg.action .text { color:#9E75E3 !important; font-style:italic; }
+#kiwi .messages .msg.action.join { color:#9E75E3 !important; }
+#kiwi .messages .msg.action.part .text { color:#9E75E3 !important; }
+#kiwi .messages .msg.action.quit .text { color:#9E75E3 !important; }
+#kiwi .messages .msg.action.kick .text { color:#9E75E3 !important; }
 #kiwi .messages .msg.status .nick { }
 #kiwi .messages .msg.status .text { color:#990000; margin-left:9em; border-left:none; font-weight:bold; }
-#kiwi .messages .msg.topic { margin: 10px; background: #FFF5AB; border: 1px solid #F3C572; border-radius: 5px; }
+#kiwi .messages .msg.topic { margin: 10px; background: #4f23a2; border: 1px solid #9066DE; border-radius: 5px; }
 #kiwi .messages .msg.topic .time { display:none; }
 #kiwi .messages .msg.topic .nick { display:none; }
-#kiwi .messages .msg.topic .text { color:#009900; margin-left:0; font-style: italic; border:none; }
+#kiwi .messages .msg.topic .text { color:#CFB6FF; margin-left:0; font-style: italic; border:none; }
 #kiwi .messages .msg.motd { border:none; }
 /*#kiwi .messages .msg.motd .nick { display:none; }*/
 #kiwi .messages .msg.motd .text { color:#666; font-family:monospace; }
@@ -147,7 +149,7 @@
 #kiwi.timestamps .messages .msg .text { margin-right: 5em;}
 
 #kiwi .messages .msg.global_nick_highlight,
-#kiwi .messages .msg.highlight { transition: background 0.3s; background:#D9D9D9; }
+#kiwi .messages .msg.highlight { transition: background 0.3s; background:#310B77; }
 #kiwi .messages .msg.repeated_nick .nick { visibility:hidden; }
 
 /* Narrow styling (window width < 420px) */
@@ -190,7 +192,7 @@
 #kiwi .messages .msg .media.reddit .thumbnail { float:left; margin-right: 0.5em; }
 
 #kiwi .messages .last_seen {
-    border-bottom-color: #B0CF82;
+    border-bottom-color: white;
 }
 
 #kiwi .right_bar {
@@ -210,6 +212,7 @@
     margin-bottom: 10px;
     padding-bottom: 10px;
     text-align: center;
+    color: #DADADA;
 }
 
 #kiwi .memberlists ul { list-style: none; }
@@ -224,14 +227,14 @@
     padding: 1em 0.5em;
 }
 #kiwi .memberlists ul li:hover {
-    border-left: 5px solid #88C56A;
+    border-left: 5px solid #9E75E3;
     -webkit-transition: 0.2s ease;
     -moz-transition: 0.2s ease;
     -ms-transition: 0.2s ease;
     -o-transition: 0.2s ease;
     transition: 0.2s ease;
 }
-#kiwi .memberlists ul li a.nick { display:block; color:black; }
+#kiwi .memberlists ul li a.nick { display:block; color:#9E75E3; }
 
 #kiwi .userbox { margin:4px 1em 5px 1em; padding-bottom:0.7em; font-size:.9em; }
 #kiwi .userbox a { display:block; text-decoration:none; margin-bottom:2px; }
@@ -287,14 +290,14 @@
 }
 
 #kiwi .controlbox .input {
-    background:#fff;
+    background:black;
     margin:3px;
     margin-top: 0px;
     margin-left: 0.5em;
     margin-right: 0.5em;
     height:1.7em;
     padding: 3px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
 
 }
 #kiwi .controlbox .input .nick a { text-decoration:none; color:black; }
@@ -311,7 +314,7 @@
     float: left;
     height: 100%;
     width: 10.4em;
-    background: #f6f6f6;
+    background: #310B77;
 }
 
 #kiwi.narrow .controlbox .input .nick { display:none; }
@@ -346,28 +349,29 @@
 
 
 
-#kiwi .toolbar .topic { background-color:#ddd; padding-bottom:2px; /*border-top: 1px solid #ddd*/}
+#kiwi .toolbar .topic { background-color:purple; padding-bottom:2px; /*border-top: 1px solid #ddd*/}
 #kiwi .toolbar .topic div {
     padding: 0.2em 1em;
     text-align: center;
     box-shadow: none;
     border-radius: 0;
-    background-color:#f7f7f7;
+    background-color:#4f23a2;
     overflow: hidden;
     outline: none;
     white-space: nowrap;
     margin-bottom: 1px;
     padding-top: 0.51em;
-    color: #7b7b7b;
+    color: #CFB6FF;
 }
 #kiwi .toolbar .topic:hover div {
     min-height:1.5em;
     white-space:pre-wrap; word-wrap:break-word;
     overflow:visible;
-    background-color:#FFF;
+    background-color:#9E75E3;
     z-index: 10;
     height:auto; bottom:auto;
     border-bottom: 2px solid #1B1B1B;
+    color: #4f23a2;
 }
 
 
@@ -381,7 +385,7 @@
     transition: all .3s ease;
     margin-left:10px;
 }
-#kiwi .toolbar .app_tools ul li:hover { color:#88C56A; }
+#kiwi .toolbar .app_tools ul li:hover { color:#9E75E3; }
 #kiwi .toolbar .app_tools img { }
 
 
@@ -393,7 +397,7 @@
     width: 100%;
     top: 0;
     left: 0;
-    background: url(background-light.png) left top repeat-x #E3E3E3;
+    /*background: url(background-light.png) left top repeat-x #E3E3E3;*/
     content: " ";
     position: fixed;
 }
@@ -441,7 +445,7 @@
 #kiwi.chanlist_treeview .toolbar { position:static; }
 #kiwi.chanlist_treeview .toolbar .app_tools { float:none; width: 160px; }
 #kiwi.chanlist_treeview .toolbar > div { margin-left:0px; }
-#kiwi.chanlist_treeview .toolbar .tabs { position:absolute; left:0px; bottom:0px; top:0px; margin:0; width:160px; background:#383838; overflow-y:auto; }
+#kiwi.chanlist_treeview .toolbar .tabs { position:absolute; left:0px; bottom:0px; top:0px; margin:0; width:160px; background:#1B1B1B; overflow-y:auto; }
 #kiwi.chanlist_treeview .toolbar .panellist { float: none; display: block;}
 #kiwi.chanlist_treeview .tabs ul li { display:block; float:none; margin-right: 0px; /*border-bottom: 1px solid #666*/ }
 #kiwi.chanlist_treeview .tabs ul li .activity { position:absolute; right:5px; }
@@ -493,7 +497,7 @@
 
 #kiwi .ui_menu {
     border-radius: 3px;
-    color: #333;
+    color: white;
     box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
 }
 #kiwi .ui_menu .ui_menu_title {
@@ -501,7 +505,7 @@
     border-top-right-radius: 3px;
 }
 #kiwi .ui_menu .ui_menu_content { }
-#kiwi .ui_menu .ui_menu_content.hover:hover { background:#f7f7f7; }
+#kiwi .ui_menu .ui_menu_content.hover:hover { background:#252424; }
 #kiwi .ui_menu .ui_menu_foot {
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
@@ -568,7 +572,7 @@
 
 
 #kiwi .settings_container .settings-category {
-    background-color: #FFF;
+    background-color: #C5C5C5;
 }
 #kiwi .settings_container .settings-category > h5 {
     border-bottom: 1px solid #A5C42C;
@@ -578,16 +582,26 @@
     padding-top: 15px;
 }
 #kiwi .settings_container .settings-category-list {
-    background: #FFF;
+    background: #9E75E3;
     margin-top: 3.4em;
 }
 #kiwi .settings_container .settings-category-list a {
     line-height: 2.5em;
-    background-color: #FFF;
-    border-left: solid 4px #FFF;
-    color: #999;
+    background-color: #9E75E3;
+    border-left: solid 4px #9E75E3;
+    color: #4f23a2;
 }
 #kiwi .settings_container .settings-category-list a.active {
-    border-left: solid 4px #a6c42c;
-    color: #36C;
+    border-left: solid 4px #4f23a2;
+    color: white;
+}
+#kiwi .inline-nick {
+  color: #9E75E3 !important;
+}
+#kiwi .right-bar-content {
+  background-color: black;
+}
+#kiwi .right-bar-toggle {
+  background: #310B77;
+  color: #C8BEDA;
 }

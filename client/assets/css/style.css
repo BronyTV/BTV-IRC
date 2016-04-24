@@ -103,7 +103,7 @@ html, body { height:100%; }
     color: #FFF;
 }
 
-#kiwi .panel_container { overflow-y:auto; height:100%; }
+#kiwi .panel_container { overflow-y:auto; height:100%; background-color: #181818 !important;}
 #kiwi .panel {
     overflow-x:wrap;
     border:none; display: none;
