@@ -21,11 +21,11 @@
 #kiwi button {
     border-radius: 2px;
     border: none;
-    background: #8ab746;
+    background: #9E75E3;
     cursor: pointer;
     color: #1b1b1b;
 }
-#kiwi button:disabled { color: #464646; background:#9cc164; }
+#kiwi button:disabled { color: white; background:#4f23a2; }
 
 #kiwi .toolbar {
     background-color:#111 !important; box-shadow:none !important; font-size:0.9em;
@@ -110,15 +110,15 @@
 #kiwi .messages .msg.action .nick { }
 #kiwi .messages .msg.action .text { color:#009900; border-left:none; font-style:italic; }
 #kiwi .messages .msg.action.join { color:#009900; }
-#kiwi .messages .msg.action.part .text { color:#900; }
-#kiwi .messages .msg.action.quit .text { color:#900; }
-#kiwi .messages .msg.action.kick .text { color:#900; }
+#kiwi .messages .msg.action.part .text { color:#009900; }
+#kiwi .messages .msg.action.quit .text { color:#009900; }
+#kiwi .messages .msg.action.kick .text { color:#009900; }
 #kiwi .messages .msg.status .nick { }
 #kiwi .messages .msg.status .text { color:#990000; border-left:none; font-weight:bold; }
-#kiwi .messages .msg.topic { margin: 10px; background: #FFF5AB; border: 1px solid #F3C572; border-radius: 5px; }
+#kiwi .messages .msg.topic { margin: 10px; background: #4f23a2; border: 1px solid #9066DE; border-radius: 5px; }
 #kiwi .messages .msg.topic .time { display:none; }
 #kiwi .messages .msg.topic .nick { display:none; }
-#kiwi .messages .msg.topic .text { color:#009900; margin-left:0; font-style: italic; border:none; }
+#kiwi .messages .msg.topic .text { color:#CFB6FF; margin-left:0; font-style: italic; border:none; }
 #kiwi .messages .msg.motd { border:none; }
 /*#kiwi .messages .msg.motd .nick { display:none; }*/
 #kiwi .messages .msg.motd .text { color:#666; }
@@ -426,4 +426,7 @@
 #kiwi .settings_container .settings-category-list a.active {
     border-left: solid 4px #76bd2b;
     color: #555;
+}
+#kiwi .inline-nick {
+  color: #9E75E3 !important;
 }
